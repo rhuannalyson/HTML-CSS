@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+header {
+    background: linear-gradient(to bottom, #6eee8e, #094d28);
+    
+    }
+h1#principal {
+    text-align: center;
+    text-shadow: 3px 2px 3px rgb(45, 170, 108);
+    font: bold normal 2.5em "Barlow Condensed", sans-serif;
+    color: white;
+    }
+p#principal {
+    text-align: center;
+    text-shadow: 3px 2px 3px rgb(17, 73, 42);
+    font: normal normal "Barlow Condensed", sans-serif;
+    color: white;
+    }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+
+ body {
+        background-color: #0ad860a8;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+main {
+        background-color: white;
+        box-shadow: 0px 0px 10px #094d28a8;
+        width: 900px;
+        padding: 10px;
+        margin: auto;
+    }
+main > span {
+        background-color: #0a7c3e;
+    }
+h1 {
+        color: #0a7c3e;
+    }
+h2 {
+        background: linear-gradient(to right, #95fcaf, #95fcaf25, #ffffff);
+        color: #0a7c3e;
+    }
+@font-face {
+        font-family: 'iDroid';
+        src: url('pacote-projeto-d010/fontes/idroid.otf')
+        format('opentype');
+    }
+h1, h2 {
+        font-family: 'iDroid', sans-serif;
+    }
+p {
+        text-align: justify;
+        line-height: 1.5em;
+        text-indent: 20pt;
+    }
+p > span {
+        font-weight: bold;
+        color: #0a7c3e;
+    }
+a {
+        color: #0a7c3e;
+        font-weight: bold;
+        text-decoration: none;
+    }
+img {
+        display: block;
+        margin: auto;
+    }
+
+footer > p{
+        background-color: #094d28;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        width: auto;
+    }
+div h1 {
+    background-color: #6eee8e;
+    color: white;
+    padding: 10px;
+}
