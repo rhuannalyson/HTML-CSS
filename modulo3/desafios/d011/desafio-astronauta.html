@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio do Astronauta</title>
     <style>
-        body {
+          body {
             height: 100vh;
             background-color: black;
             background-image: url('imagens/espaco.jpg');
@@ -13,29 +13,38 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
-
             position: relative;
-            
-            
-            /*  shorthand do background
-            background: black url('imagens/espaco.jpg') center top / cover no-repeat fixed;
-            */
         }
-
-        #astronauta{
-            background-image: url('imagens/astronauta.png');
-
+        
+        img {
+            width: 60%;
+            max-width: 350px;
+            min-width: 180px;
             position: absolute;
-            width: 100px;
-            height: 100px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <section id="espaço">
-        <article id="astronauta">
-
-        </article>
-    </section>
+<img src="imagens/astronauta.png" alt="Astronauta">
 </body>
 </html>
+
+<!-- 
+    #astronauta {
+            width: 40vw;
+            max-width: 300px;
+            min-width: 180px;
+            aspect-ratio: 1/1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('imagens/astronauta.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    }--> 
