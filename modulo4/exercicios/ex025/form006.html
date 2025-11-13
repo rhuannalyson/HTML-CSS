@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastros.php" method="POST" autocomplete="on"> <!-- Quando for se usar o controle file, não se usa o method get e sim o method POST. -->
+        <p>
+            <label for="icor"> Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00f000">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de Satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="0" max="10" value="0">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto de perfil: </label>
+            <input type="file" name="foto" id="ifoto"> <!-- Controle File -->
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
